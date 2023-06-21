@@ -17,7 +17,35 @@ function add() {}
 //Read Obtener la data y mostrarla
 function show() {
     const data =getData();
-    console.log(data)
+    console.log(data);
+
+    data.forEach(function(item) {
+        
+    });
+    
+
+
+    /* 
+    const $tableEl = document.createElement('tablet');
+    $tableEl.setAttribute('border',1);
+    $tableEl.setAttribute('cellspacing','1xp');
+    $tableEl.setAttribute('cellpadding','1xp');
+    const
+        $tbodyEl = document.createElement('tbody'),
+        $trEl = document.createElement('tr'),
+        $tdEl = document.createElement('td');
+
+    data.forEach( todos => {
+        console.log(todos)
+    });
+
+
+    $trEl.appendChild($tdEl);
+    $tbodyEl.appendChild($trEl);
+    $tableEl.appendChild($tbodyEl)
+
+    console.log($tableEl); */
+   
 }
 //Update
 function update() {}
@@ -27,9 +55,9 @@ function remove(){}
 
 
 
-console.log($form);
+/* console.log($form);
 console.log($showDataEl)
-
+ */
 $form.addEventListener( 'submit', ( e )=>{
     e.preventDefault();
     console.log('Me as dado click');
