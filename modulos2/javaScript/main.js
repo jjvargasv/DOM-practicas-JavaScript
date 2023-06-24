@@ -24,12 +24,4 @@ let result = suma( nun1, nun2)
     result = modulo( nun1, nun2)
     console.log (  `la resta es  ${result}`);
 
-
-
-
-
-
-
-
-
 ``
